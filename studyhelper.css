@@ -1,0 +1,69 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #62db5e;
+    color: #fff;
+    padding: 20px 0;
+}
+
+#selected-quiz {
+    text-align: center;
+    background-color: #db6f5e;
+    color: #fff;
+    padding: 20px 0;
+}
+
+#question-box {
+    text-align: center;
+    border: 3pt solid rgb(255, 255, 0);
+    background-color: rgb(255, 0, 0, 0.3);
+    border-radius: 15px;
+    padding: 8px;
+    max-width: 1000px;
+    margin: 16px auto;
+}
+
+#option-1-button, #option-2-button, #option-3-button, #option-4-button {
+    background-color: rgb(167, 138, 255);
+    cursor: pointer;
+    padding: 8px;
+    width: 150px;
+    margin: 8px auto;
+}
+
+#reset-button {
+    background-color: rgb(156, 255, 138);
+    cursor: pointer;
+    padding: 8px;
+    width: 150px;
+    margin: 8px auto;
+}
+
+#quiz1-button, #quiz2-button, #quiz3-button {
+    background-color: rgb(255, 138, 226);
+    cursor: pointer;
+    padding: 8px;
+    width: 150px;
+    margin: 8px auto;
+}
+
+.center-button {
+    text-align: center;
+}
+
+#quiz1-button:hover, #quiz2-button:hover, #quiz3-button:hover, #option-1-button:hover, #option-2-button:hover, #option-3-button:hover, #option-4-button:hover, #reset-button:hover {
+    filter: brightness(0.90);
+}
+
+#question-number-text, #score-text {
+    border: 3pt solid rgb(48, 255, 200);
+    background-color: rgba(140, 255, 0, 0.3);
+    padding: 8px;
+    max-width: 150px;
+    margin: 16px;
+}
